@@ -1,0 +1,1 @@
+CMD celery -A config worker -l INFO -P eventlet && celery -A config beat —loglevel=info
